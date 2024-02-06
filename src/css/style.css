@@ -56,16 +56,31 @@ header nav ul li a:hover{
 }
 .fotos-com-descricao{
    padding: 10px;
-   display: flex;
+   display: grid;
+   grid-template-columns: repeat(2 , auto);
    align-items: center;
    justify-content: center;
 }
 .fotos-com-descricao .foto {
-    background: url('../img/primeira-foto.jpg')center center no-repeat;
-    background-size: cover;
     width: 600px;
     height: 400px;
     border-radius: 10px;
+}
+.fotos-com-descricao .foto-1{
+    background: url('../img/primeira-foto.jpg')center center no-repeat;
+    background-size: cover;
+}
+.fotos-com-descricao .foto-2{
+    background: url('../img/segunda-foto.jpg')center center no-repeat;
+    background-size: cover;
+}
+.fotos-com-descricao .foto-3{
+    background: url('../img/terceira-foto.jpg')center center no-repeat;
+    background-size: cover;
+}
+.fotos-com-descricao .foto-4{
+    background: url('../img/quarta-foto.jpg')center center no-repeat;
+    background-size: cover;
 }
 .fotos-com-descricao .descricao{
     margin-left: 40px;
