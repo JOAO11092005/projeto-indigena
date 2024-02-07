@@ -1,7 +1,7 @@
 .titulo-arma{
     width: 100%;
     height: 600px;
-    background: url('../paginas/img/fundo.jpg')center center no-repeat;
+    background: url('../paginas/img/fundo-novo.webp')center center no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -77,5 +77,8 @@
     .armas {
         display: grid;
         grid-template-columns: repeat(1 , auto);
+    }
+    .titulo-arma h1{
+        font-size: 40px;
     }
 }
