@@ -10,6 +10,11 @@
     align-items: center;
     justify-content: center;
 }
+@media (max-width: 1400px){
+    .comida-inicio{
+        height: 400px;
+    }
+}
 .comida-inicio h1{
     color: white;
     font-size: 40px;
