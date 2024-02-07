@@ -51,7 +51,7 @@
     background-size: cover;
 }
 .culinaria .comida.tapioca .img{
-    background: url('https://conteudo.imguol.com.br/c/entretenimento/9b/2022/05/06/tapioca-com-ovo-1651876646575_v2_4x3.jpg');
+    background: url('../paginas/img/tapioca.jpg');
     width: 500px;
     height: 300px;
     border-top-left-radius: 10px;
@@ -126,4 +126,22 @@
 .comidas-tipicas .descricao p{
     width: 600px;
     font-size: 20px;
+}
+@media (max-width: 500px){
+    .comida-inicio h1{
+        font-size: 28px;
+    }
+    .culinaria .comida.milho .img , .culinaria .comida.pamonha .img ,.culinaria .comida.tapioca .img,.culinaria .comida.mandioca .img,.culinaria .comida.muqueca-de-paixe .img,.culinaria .comida.tacaca .img{
+      width: 100%;
+      border-radius: 0;
+    }
+    .comidas-tipicas{
+        display: block;
+    }
+    .comidas-tipicas .descricao p{
+        width: 300px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
 }
