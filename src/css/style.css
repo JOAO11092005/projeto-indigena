@@ -143,8 +143,31 @@ header nav ul li a:hover{
 .rodape{
     width: 100%;
     height: 200px;
-    background-color: blueviolet;
+    background: url('../img/rodape-1.png') center center no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.rodape h2{
+        margin-right: 30px;
+        color: white;
+        background-color: rgba(21, 20, 20, 0.097);
+        font-family: 'Dancing Script', cursive;
+}
+.rodape a{
+    margin-left: 30px;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: rgba(74, 69, 69, 0.746);
+}
+.rodape .email{
+    width: 57px;
 }
