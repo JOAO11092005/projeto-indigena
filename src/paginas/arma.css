@@ -1,0 +1,81 @@
+.titulo-arma{
+    width: 100%;
+    height: 600px;
+    background: url('../paginas/img/fundo.jpg')center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-arma h1{
+    color: white;
+    font-size: 50px;
+}
+.armas {
+    display: grid;
+    grid-template-columns: repeat(2 , auto);
+    
+}
+.armas .tipo-de-arma{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.armas .tipo-de-arma .imagem{
+    cursor: pointer;
+}
+.armas .tipo-de-arma .imagem:hover{
+    padding: 10px;
+}
+.armas .tipo-de-arma .machado{
+    width: 300px;
+    background-size: cover;
+    height: 300px;
+}
+.armas .tipo-de-arma .imagem .descricao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.armas .tipo-de-arma .machado{
+    background: url('../paginas/img/./machado.jpg')center center no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    transition: 0.5s;
+
+    
+}
+.armas .tipo-de-arma .imagem:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.armas .tipo-de-arma .borduna{
+    background: url('../paginas/img/borduna.webp');
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+.armas .tipo-de-arma .imagem.lanca{
+    background: url('../paginas/img/lanca.jpg');
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+.armas .tipo-de-arma .flecha{
+    background: url('../paginas/img/flecha.webp');
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+
+@media (max-width: 620px){
+    .armas {
+        display: grid;
+        grid-template-columns: repeat(1 , auto);
+    }
+}
