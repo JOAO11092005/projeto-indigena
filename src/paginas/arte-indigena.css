@@ -1,0 +1,165 @@
+.home{
+    display: none;
+}
+.arte-inicio{
+    background: url('https://blog.retrobel.com.br/wp-content/uploads/2021/08/blog-3.jpg')center center no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arte-inicio h1{
+    font-size: 40px;
+    color: white;
+}
+.artes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.artes .arte{
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.artes .arte .ceramica{
+    background: url('https://portalamazonia.com/images/p/33909/b2ap3_large_2-1.jpeg');
+    width: 500px;
+    height: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+}
+.artes .arte .cesta{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6KusbKAGXy14IyvXE_U_VSk9o49dlo_ebjQ&usqp=CAU');
+    width: 500px;
+    height: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+}
+.artes .arte .mascara{
+    background: url('./img/mascara.jpg');
+    width: 500px;
+    height: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+}
+.artes .arte .plumaria{
+    background: url('https://i.pinimg.com/474x/49/3c/48/493c4888b7cffe2b2c155d4d06e83c9f.jpg');
+    width: 500px;
+    height: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+}
+.artes .arte .pintura-corporal{
+    background: url('./img/pintura-corporal.jpg');
+    width: 500px;
+    height: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+}
+.artes .arte .descricao {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.artes .arte .descricao p{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.esposicao {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    width: 100%;
+}
+.esposicao .imagem{
+    background: url('./img/peixe.jpg')center center no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+.esposicao .imagem.img-1{
+    background: url('https://abra.com.br/wp-content/uploads/2023/09/Thumb-indigena.jpg')center center no-repeat;
+}
+.esposicao .descricao{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f2f1;
+}
+.esposicao .descricao p{
+    width: 400px;
+    font-size: 25px;
+}
+.museo-de-arte{
+    background: url('https://conteudo.imguol.com.br//c/especiais/ecoa/_2021/marcha-indigenas/cover.jpg')center center no-repeat;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(228, 86, 86);
+    gap: 10px;
+}
+.museo-de-arte h2{
+    background-color: rgba(15, 87, 87, 0.486);
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+}
+.museo-de-arte a{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    transition: 0.5s;
+}
+.museo-de-arte a:hover{
+    background-color: rgb(59, 53, 53);
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s;
+}
+
+@media (max-width: 500px){
+    .artes .arte .ceramica,.artes .arte .cesta ,.artes .arte .mascara,.artes .arte .plumaria,.artes .arte .pintura-corporal{
+          width: 100%;
+          border-radius: 0px;
+    }
+    .artes .arte{
+        width: 100%;
+    }
+    .esposicao{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+    .esposicao .descricao{
+        border-bottom: 1px solid black;
+    }
+    .museo-de-arte{
+        flex-direction: column;
+    }
+}
