@@ -67,26 +67,33 @@
         width: 150px;
         margin-top: 20px;
     }
+    header nav{
+        border-bottom-left-radius: 10px;
+    }
     header nav ul{
         display: none;
         gap: 30px;
         align-items: center;
         justify-content: center;
         margin-right: 50px;
+        padding-bottom: 30px;
+       
     }
+    
     header nav ul li a{
         padding: 10px;
         height: 40px;
-        width: 100px;
+        width: 150px;
+        border-bottom: 2px solid rgb(10, 10, 10);
         display: flex;
         align-items: center;
         justify-content: center;
         /* border-radius: 4px; */
         transition: 0.3s;
-        border-bottom: 2px solid rgba(10, 10, 10, 0);
+       
     }
     header nav ul li a:hover{
-        border-bottom: 2px solid rgb(10, 10, 10);
+       
         color: black;
         transition: 0.3s;
     }
