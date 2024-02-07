@@ -141,6 +141,9 @@
     .comidas-tipicas{
         display: block;
     }
+    .culinaria .comida{
+        height: 400px;
+    }
     .comidas-tipicas .descricao p{
         width: 300px;
         padding-top: 10px;
