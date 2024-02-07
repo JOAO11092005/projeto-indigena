@@ -1,0 +1,129 @@
+.home{
+    display: none;
+}
+.comida-inicio{
+    background: url('https://telaviva.com.br/wp-content/uploads/2022/01/espremendo-o-lim%C3%A3o-no-peixeIMG_2012-2-scaled.jpg')center center no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comida-inicio h1{
+    color: white;
+    font-size: 40px;
+}
+.culinaria{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.culinaria .comida{
+    
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.culinaria .comida.milho .img{
+    background: url('./img/bolo-de-milho.jpg');
+    width: 500px;
+    height: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+}
+.culinaria .comida.pamonha .img{
+    background: url('https://www.vaipormim.com/storage/posts/files/512b3dd371e957c50553056765f5f519fdf2b6f9.webp');
+    width: 500px;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: cover;
+}
+.culinaria .comida.tapioca .img{
+    background: url('https://conteudo.imguol.com.br/c/entretenimento/9b/2022/05/06/tapioca-com-ovo-1651876646575_v2_4x3.jpg');
+    width: 500px;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: cover;
+}
+.culinaria .comida.mandioca .img{
+    background: url('https://s2-globorural.glbimg.com/JkvhB1HKXCbSB-wYjWCRDBPBNGY=/0x0:512x320/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_afe5c125c3bb42f0b5ae633b58923923/internal_photos/bs/2022/A/1/SMkykRSIiYXqf1W751YA/2019-11-02-gr-3.jpg');
+    width: 500px;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: cover;
+}
+.culinaria .comida.muqueca-de-paixe .img{
+    background: url('https://receitasrapidas.org/wp-content/webp-express/webp-images/uploads/2023/03/moqueca-de-peixe-com-os-acompanhamentos-perfeitos.jpg.webp');
+    width: 500px;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: cover;
+}
+.culinaria .comida.tacaca .img{
+    background: url('https://opopular.com.br/image/policy:1.3091540:1702339981/image.jpg');
+    width: 500px;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: cover;
+}
+.culinaria .comida. .img{
+    background: url('../paginas/img/bolo-de-milho.jpg');
+    width: 500px;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: cover;
+}
+.culinaria .comida .descricao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.comidas-tipicas{
+    display: flex;
+}
+.comidas-tipicas .imagem{
+    background: url('https://portalmanaos.com.br/wp-content/uploads/2023/04/capa-alimentacao-indigena-1068x801.jpg')center center no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+.comidas-tipicas .descricao{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f2f1;
+}
+.comidas-tipicas .descricao p{
+    width: 600px;
+    font-size: 20px;
+}

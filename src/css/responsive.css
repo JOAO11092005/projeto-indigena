@@ -1,9 +1,55 @@
+
 @media (max-width:1200px){
     .menu{
         position: absolute;
        justify-content: flex-end;
        right:90px;
        top: px;
+    }
+    .home{
+        display: block;
+    }
+    .informacao-arma{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .informacao-arma .armas{
+        background: url('https://i.pinimg.com/736x/d6/90/c9/d690c9bb57c5c1b1dd9759e7cbc2b66f.jpg')center center no-repeat;
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .informacao-arma .armas-1{
+        background: url('../paginas/img/pedra-lanca.jpg')center center no-repeat;
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+    }
+    .informacao-arma .descricao{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 17px;
+    }
+    .informacao-arma .descricao p{
+        width: 300px;
+    }
+    .informacao-arma .descricao-1{
+        width: 600px;
+        display: flex;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-size: 20px;
+        background-color: #f1f2f1;
+    }
+    .informacao-arma .descricao-1 p{
+        width: 300px;
     }
     header nav{
         margin-top:250px;
