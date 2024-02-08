@@ -3,8 +3,8 @@
     .menu{
         position: absolute;
        justify-content: flex-end;
-       right:90px;
-       top: px;
+       right:110px;
+       
     }
     .home{
         display: block;
@@ -52,7 +52,7 @@
         width: 300px;
     }
     header nav{
-        margin-top:250px;
+        margin-top:300px;
         background-color: white;
     }
     header nav ul{
