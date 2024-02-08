@@ -9,3 +9,11 @@ a , li{
  text-decoration: none;
  color: black;
 }
+.home{
+    display: none;
+}
+@media (max-width:500px){
+    .home{
+        display: block;
+    }
+}

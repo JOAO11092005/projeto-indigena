@@ -1,0 +1,157 @@
+.instrumento-inicio {
+    background: url('https://cdn.theatlantic.com/thumbor/qUIMm1SD6zg1zewdQIctB3_WlFw=/900x600/media/img/photo/2015/10/the-world-indigenous-games/b09_RTS5D1Q/original.jpg')center center no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home{
+    display: none;
+}
+.instrumento-inicio h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.instrumentos {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.instrumentos .item {
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    border-radius: 10px;
+    background-size: cover;
+}
+.instrumentos .chocalho .item{
+    background: url('https://i.pinimg.com/564x/13/0d/9f/130d9f0df9b50eb74c4bd4163a4dbba6.jpg')center center no-repeat;
+}
+.instrumentos .Atabaque .item{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0qZc0cRMG5fWjRx7rxL6qRO_oQ-F66OtsVqsh4yNrywwkI1i0flfInbKFZni-VzllOAQ&usqp=CAU')center center no-repeat;
+    background-size: cover;
+}
+.instrumentos .Maraca .item{
+    background: url('./img/maraca.jpg')center center no-repeat;
+}
+.instrumentos .Reco-reco .item{
+    background: url('https://i.pinimg.com/736x/f0/bd/30/f0bd30a15b7c443c35d95b96ebfdd46b.jpg')center center no-repeat;
+    background-size: cover;
+}
+.instrumentos .Trombeta-de-cuia .item{
+    background: url('img/trombeta.jpg')center center no-repeat;
+    background-size: cover;
+}
+.instrumentos .Sopro .item{
+    background: url('https://mukanishop.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/f/l/flauta_taquara.jpg')center center no-repeat;
+    background-size: cover;
+    border: 1px solid rgb(234, 219, 219);
+}
+.instrumentos .descricao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.instrumentos .descricao p{
+    font-size: 25px;
+}
+.intrumentos-explicar{
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+@media (max-width:500px){
+    .intrumentos-explicar{
+        height: 700px;
+    }
+}
+.intrumentos-explicar .imagem{
+   background: url('https://pt-static.z-dn.net/files/d63/1536b71036e4e3745d989c8207860856.jpg')center center no-repeat;
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+}
+.intrumentos-explicar .imagem.imagem-2{
+    background: url('https://3.bp.blogspot.com/-tp4ToXLJke4/Td72_sz5y6I/AAAAAAAAAI4/tEbtpZ7CodU/s1600/Cultura+Ind%25C3%25ADgena+-+Mala+Musical.jpg')center center no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.intrumentos-explicar .texto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f2f1;
+}
+.intrumentos-explicar .texto p{
+    width: 500px;
+    font-size: 24px;
+}
+.museo-de-arte{
+    background: url('https://conteudo.imguol.com.br//c/especiais/ecoa/_2021/marcha-indigenas/cover.jpg')center center no-repeat;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(228, 86, 86);
+    gap: 10px;
+}
+.museo-de-arte h2{
+    background-color: rgba(15, 87, 87, 0.486);
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+}
+.museo-de-arte a{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    transition: 0.5s;
+}
+.museo-de-arte a:hover{
+    background-color: rgb(59, 53, 53);
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s;
+}
+@media (max-width: 500px){
+    .home{
+        display: block;
+    }
+    .museo-de-arte{
+        flex-direction: column;
+        
+    }
+    .instrumentos div{
+        width: 100%;
+    }
+    .instrumentos .item{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .intrumentos-explicar{
+        flex-direction: column;
+        margin-top: 30px;
+        
+    }
+    .intrumentos-explicar .texto{
+        height: 500px;
+    }
+    .intrumentos-explicar .texto p{
+        font-size: 20px;
+        width: 300px;
+    }
+}
