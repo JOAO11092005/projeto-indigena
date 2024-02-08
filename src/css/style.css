@@ -45,7 +45,7 @@ header nav ul li a:hover{
     background: url('../img/fundo-inicio.jpeg') center center no-repeat;
     background-size: cover;
     background-color: var(--cor-do-video);
-    height: 640px;
+    height: 540px;
     display: flex;
     align-items: center;
     justify-content: center;
