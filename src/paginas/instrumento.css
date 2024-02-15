@@ -14,7 +14,9 @@
     color: white;
     font-size: 50px;
 }
-
+.texto-reserva{
+    display: none;
+}
 .instrumentos {
     display: flex;
     margin-top: 30px;
@@ -74,6 +76,14 @@
     .intrumentos-explicar{
         height: 700px;
     }
+    .intrumentos-explicar .texto-reserva{
+        height: 500px;
+    }
+    .instrumentos div .item{
+        width: 300px;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
 }
 .intrumentos-explicar .imagem{
    background: url('https://pt-static.z-dn.net/files/d63/1536b71036e4e3745d989c8207860856.jpg')center center no-repeat;
@@ -96,10 +106,24 @@
 }
 .intrumentos-explicar .texto p{
     width: 500px;
+    height: 300px;
     font-size: 24px;
 }
-
+@media (max-width: 812px){
+    .intrumentos-explicar .texto p{
+        width: 300px;
+    }
+    .intrumentos-explicar .texto .texto-2{
+        display: none;
+    }
+    .texto-reserva{
+        display: block;
+    }
+}
 @media (max-width: 500px){
+    main{
+        background-color: #f1f2f1;
+    }
     .home{
         display: block;
     }
@@ -114,7 +138,7 @@
     .intrumentos-explicar{
         flex-direction: column;
         margin-top: 30px;
-        
+        background-color: #f1f2f1;
     }
     .intrumentos-explicar .texto{
         height: 500px;
@@ -122,5 +146,7 @@
     .intrumentos-explicar .texto p{
         font-size: 20px;
         width: 300px;
+        margin-top: 40px;
+        border-bottom: 1px solid black;
     }
 }

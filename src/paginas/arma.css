@@ -39,6 +39,7 @@
     width: 100%;
     font-size: 20px;
     background-color: #f1f2f1;
+    
 }
 .informacao-arma .descricao-1 p{
     width: 500px;
@@ -53,6 +54,9 @@
     .informacao-arma .descricao p{
         width: 500px;
     }
+}
+@media (max-width: 1400px){
+    
 }
 .home{
     display: none;
@@ -109,6 +113,11 @@
     width: 300px;
     height: 300px;
 }
+@media (max-width: 500px){
+    .informacao-arma .descricao-1 {
+        height: 500px;
+    }
+}
 .armas .tipo-de-arma .imagem.lanca{
     background: url('../paginas/img/lanca.jpg');
     background-size: cover;
@@ -130,5 +139,8 @@
     }
     .titulo-arma h1{
         font-size: 40px;
+    }
+    .informacao-arma .descricao-1{
+        height: 400px;
     }
 }

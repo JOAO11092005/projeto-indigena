@@ -114,6 +114,12 @@
     width: 400px;
     font-size: 25px;
 }
+@media (max-width: 999px){
+    .esposicao .descricao p{
+        width: 300px;
+        font-size: 25px;
+    }
+}
 .museo-de-arte{
     background: url('../paginas/img/museo.jpg')center center no-repeat;
     width: 100%;
@@ -147,7 +153,7 @@
 @media (max-width: 500px){
     .artes .arte .ceramica,.artes .arte .cesta ,.artes .arte .mascara,.artes .arte .plumaria,.artes .arte .pintura-corporal{
           width: 100%;
-          border-radius: 0px;
+          border-radius: 10px;
     }
     .home{
         display: block;
@@ -157,7 +163,8 @@
         
     }
     .artes .arte{
-        width: 100%;
+        width: 300px;
+        border-radius: 10px;
     }
     .esposicao{
         display: grid;

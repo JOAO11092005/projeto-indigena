@@ -229,6 +229,7 @@
         border-radius: 10px;
     }
     .video{
+        background: url(https://c4.wallpaperflare.com/wallpaper/948/848/937/ecosystem-vegetation-wildlife-jungle-wallpaper-preview.jpg)center center no-repeat;
         background-size: cover;
         width: 100%;
         height: 600px;
@@ -317,4 +318,9 @@
         width: 57px;
     }
     
+}
+@media (max-width:500px){
+    .informacao-arma .descricao-1{
+        height: 400px;
+    }
 }

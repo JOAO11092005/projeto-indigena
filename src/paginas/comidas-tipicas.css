@@ -140,14 +140,24 @@
         font-size: 28px;
     }
     .culinaria .comida.milho .img , .culinaria .comida.pamonha .img ,.culinaria .comida.tapioca .img,.culinaria .comida.mandioca .img,.culinaria .comida.muqueca-de-paixe .img,.culinaria .comida.tacaca .img{
-      width: 100%;
-      border-radius: 0;
+      width: 300px;
+      margin: 0 auto;
+     
+      border-radius: 10;
     }
     .comidas-tipicas{
         display: block;
     }
     .culinaria .comida{
         height: 400px;
+    }
+    .comidas-tipicas .imagem{
+        width: 400px;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    .comidas-tipicas .descricao{
+      height: 500px;
     }
     .comidas-tipicas .descricao p{
         width: 300px;
