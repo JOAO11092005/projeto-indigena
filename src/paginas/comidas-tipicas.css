@@ -157,7 +157,7 @@
         border-radius: 10px;
     }
     .comidas-tipicas .descricao{
-      height: 500px;
+      height: 500px                                  ;
     }
     .comidas-tipicas .descricao p{
         width: 300px;

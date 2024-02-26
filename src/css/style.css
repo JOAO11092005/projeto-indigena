@@ -55,6 +55,7 @@ header nav ul li a:hover{
     color: white;
     margin-top: 30px;
 }
+
 .fotos-com-descricao{
    padding: 10px;
    display: grid;
@@ -142,9 +143,11 @@ header nav ul li a:hover{
     justify-content: center;
     padding: 10px;
    background-color: #f1f2f1;
+
 }
 .localizacao img{
-    width: 500px;
+    width:910px;
+    height: 600px;
     border-radius: 10px;
 }
 
@@ -180,3 +183,4 @@ header nav ul li a:hover{
 .rodape .email{
     width: 57px;
 }
+                         

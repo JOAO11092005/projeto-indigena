@@ -29,96 +29,74 @@
     border-radius: 10px;
     margin-top: 10px;
 }
-.artes .arte .ceramica{
-    background: url('../paginas/img/ceramica.jpeg');
-    width: 500px;
-    height: 300px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    background-size: cover;
-}
-.artes .arte .cesta{
-    background: url('../paginas/img/cesta.jpg');
-    width: 500px;
-    height: 300px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    background-size: cover;
-}
-.artes .arte .mascara{
-    background: url('./img/mascara.jpg');
-    width: 500px;
-    height: 300px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    background-size: cover;
-}
-.artes .arte .plumaria{
-    background: url('../paginas/img/plumaria.jpg');
-    width: 500px;
-    height: 300px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    background-size: cover;
-}
-.artes .arte .pintura-corporal{
-    background: url('./img/pintura-corporal.jpg');
-    width: 500px;
-    height: 300px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    background-size: cover;
-}
-.artes .arte .descricao {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-.artes .arte .descricao p{
-    font-size: 30px;
-    margin-top: 20px;
-}
-.esposicao {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
+.informacoes{
     width: 100%;
-}
-.esposicao .imagem{
-    background: url('./img/peixe.jpg')center center no-repeat;
-    width: 100%;
-    height: 400px;
-    background-size: cover;
-}
-.esposicao .imagem.img-1{
-    background: url('../paginas/img/artes-mascaras.jpg')center center no-repeat;
-}
-.esposicao .descricao{
-    width: 100%;
-    height: 400px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f1f2f1;
+    flex-direction: column;
+    position: relative;
 }
-.esposicao .descricao p{
+.informacoes h1{
+    margin-top: 20px;
+    font-size: 40px;
+    
+}
+.informacoes p{
+    font-size: 34px;
+    width: 880px;
+    text-align: justify;
+    margin-top: 30px;
+   
+}
+.imagem-ceramica{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.imagem-ceramica img{
+    width: 600px;
+    height: 100%;
+    border-radius: 10px;
+}
+.segundo-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+.segundo-texto p{
+    font-size: 30px;
+    width: 880px;
+    text-align: justify;
+}
+.imagem-com-descricao{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+.imagem-com-descricao img{
     width: 400px;
-    font-size: 25px;
+    height: 500px;
+    border-radius: 10px;
 }
-@media (max-width: 999px){
-    .esposicao .descricao p{
-        width: 300px;
-        font-size: 25px;
-    }
+.imagem-com-descricao .info{
+    justify-content: flex-start;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+.imagem-com-descricao .info p{
+    font-size: 20px;
 }
 .museo-de-arte{
     background: url('../paginas/img/museo.jpg')center center no-repeat;
@@ -151,10 +129,6 @@
 }
 
 @media (max-width: 500px){
-    .artes .arte .ceramica,.artes .arte .cesta ,.artes .arte .mascara,.artes .arte .plumaria,.artes .arte .pintura-corporal{
-          width: 100%;
-          border-radius: 10px;
-    }
     .home{
         display: block;
     }
