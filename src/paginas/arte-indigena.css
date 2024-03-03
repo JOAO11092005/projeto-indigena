@@ -150,4 +150,11 @@
     .museo-de-arte{
         flex-direction: column;
     }
+    .segundo-texto{
+        width: 100%;
+        font-size: 20px;
+    }
+    .segundo-texto p {
+        width: 100%;
+    }
 }
