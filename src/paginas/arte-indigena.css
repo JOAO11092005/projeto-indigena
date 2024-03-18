@@ -40,7 +40,7 @@
 }
 .informacoes h1{
     margin-top: 20px;
-    font-size: 40px;
+    font-size: 50px;
     
 }
 .informacoes p{
@@ -120,6 +120,7 @@
     color: rgb(255, 255, 255);
     padding: 10px;
     transition: 0.5s;
+    text-decoration: underline;
 }
 .museo-de-arte a:hover{
     background-color: rgb(59, 53, 53);
@@ -157,4 +158,45 @@
     .segundo-texto p {
         width: 100%;
     }
+}
+
+.texto-sobre-historia{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.texto-sobre-historia p{
+    width: 800px;
+    text-align: justify;
+    font-size: 30px;
+}
+.vaso-com-rosto{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.vaso-com-rosto img{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+}
+.texto-sobre-o-vaso-com-rosto{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 420px;
+}
+.texto-sobre-o-vaso-com-rosto p{
+    width: 700px;
+    font-size: 25px;
+    text-align: justify;
+}
+.texto-sobre-o-vaso-com-rosto p span{
+   font-weight: 500;
+   font-size: 30px;
 }
