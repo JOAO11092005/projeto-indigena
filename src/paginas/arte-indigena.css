@@ -189,12 +189,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 420px;
+    height: 480px;
 }
 .texto-sobre-o-vaso-com-rosto p{
     width: 700px;
     font-size: 25px;
     text-align: justify;
+    padding-bottom: 40px;
 }
 .texto-sobre-o-vaso-com-rosto p span{
    font-weight: 500;
