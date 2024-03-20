@@ -227,11 +227,17 @@
         width: 300px;
         margin-bottom: 20px;
     }
+    .imagem-com-descricao{
+        text-align: center;
+        align-items: center;
+    
+    }
     .imagem-com-descricao img{
         width: 100%;
         height: 380px;
         border-radius: 0px;
     }
+    
     .texto-sobre-historia{
         width: 100%;
     }
@@ -242,6 +248,7 @@
     .imagem-com-descricao .info {
         width: 100%;
         text-align: center;
+        margin-left: 50%;
     }
     .vaso-com-rosto img {
         width: 100%;
