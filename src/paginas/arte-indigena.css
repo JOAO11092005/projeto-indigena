@@ -11,8 +11,9 @@
     justify-content: center;
 }
 .arte-inicio h1{
-    font-size: 40px;
+    font-size: 50px;
     color: white;
+    font-family: "Jacques Francois Shadow", serif;
 }
 .artes{
     width: 100%;

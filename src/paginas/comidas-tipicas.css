@@ -2,9 +2,10 @@
     display: none;
 }
 .comida-inicio{
-    background: url('../paginas/img/comida-inicio.jpg')center center no-repeat;
+    /* background: url('../paginas/img/comida-inicio.jpg')center center no-repeat; */
+    background: url('https://lh3.googleusercontent.com/proxy/wrRAiDkmpNVwZdZej84mCHozFO9T6GP1ffd1NJIbx_iQajnKo7b3CnaWja6G_vFL0wswzSEMZShxw4ywhx1SpXZv3lbGz7iK8v1qgokRzThomqdYZVulJxIVeL8LPAEyqZ4')center center no-repeat;
     width: 100%;
-    height: 500px;
+    height: 400px;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -17,7 +18,8 @@
 }
 .comida-inicio h1{
     color: white;
-    font-size: 40px;
+    font-size: 50px;
+    font-family: "Jacques Francois Shadow", serif;
 }
 .culinaria{
     width: 100%;
