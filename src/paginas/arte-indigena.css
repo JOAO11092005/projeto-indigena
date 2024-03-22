@@ -81,6 +81,7 @@
 }
 .segundo-texto span{
     font-family: "Abril Fatface", serif;
+    font-size: 35px;
 }
 .segundo-texto p{
     font-size: 30px;
@@ -218,7 +219,7 @@
 }
 .texto-sobre-o-vaso-com-rosto p span{
    font-weight: 500;
-   font-size: 30px;
+   font-size: 35px;
    font-family: "Abril Fatface", serif;
 }
 .jarro-com-copos{
