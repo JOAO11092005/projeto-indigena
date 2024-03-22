@@ -201,8 +201,69 @@
    font-weight: 500;
    font-size: 30px;
 }
-
-
+.jarro-com-copos{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+.jarro-com-copos img{
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+}
+.jarro-com-copos .info{
+    margin-right: 300px;
+    margin-top: 10px;
+}
+.jarro-com-copos .info p{
+    font-size: 20px;
+}
+.peixe{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+.peixe img{
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+}
+.peixe .info{
+    margin-right: 300px;
+    margin-top: 10px;
+}
+.peixe .info p{
+    font-size: 20px;
+}
+.tartaruga{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+.tartaruga img{
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+}
+.tartaruga .info{
+    margin-right: 300px;
+    margin-top: 10px;
+}
+.tartaruga .info p{
+    font-size: 20px;
+}
 @media (max-width:500px){
     .informacoes{
         text-align: center;
