@@ -3,13 +3,24 @@
 }
 .comida-inicio{
     /* background: url('../paginas/img/comida-inicio.jpg')center center no-repeat; */
-    background: url('https://lh3.googleusercontent.com/proxy/wrRAiDkmpNVwZdZej84mCHozFO9T6GP1ffd1NJIbx_iQajnKo7b3CnaWja6G_vFL0wswzSEMZShxw4ywhx1SpXZv3lbGz7iK8v1qgokRzThomqdYZVulJxIVeL8LPAEyqZ4')center center no-repeat;
+    background: url('https://www.cnnbrasil.com.br/viagemegastronomia/wp-content/uploads/sites/5/2021/04/WhatsApp-Image-2021-04-16-at-15.38.16.jpeg?w=1024')center center no-repeat;
     width: 100%;
     height: 400px;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.comida-inicio .fundo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000af;
+}
+.comida-inicio .fundo h1{
+    font-family: "Jacques Francois Shadow", serif;
 }
 @media (max-width: 1400px){
     .comida-inicio{
@@ -167,4 +178,77 @@
         padding-bottom: 10px;
         font-size: 20px;
     }
+}
+.texto-1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.texto-1 h1{
+    font-size: 37px;
+    margin-bottom: 30px;
+    font-family: "Pattaya", sans-serif;
+}
+.texto-1 p{
+    font-size: 25px;
+    width: 880px;
+    text-align: justify;
+}
+.texto-1 p span{
+    font-size: 30px;
+    font-family: "Pattaya", sans-serif;
+}
+.texto{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto-2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.texto h1{
+    font-size: 30px;
+    font-family: "Pattaya", sans-serif;
+}
+.imagem-mulher-indigena-fazendo-comida{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagem-mulher-indigena-fazendo-comida img{
+    border-radius: 10px;
+}
+.pamonha{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.pamonha img{
+    border-radius: 10px;
+}
+.texto-2 h2{
+    font-family: "Pattaya", sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.texto-2 p{
+   width: 700px;
+   font-size: 25px;
+   text-align: justify;
 }
