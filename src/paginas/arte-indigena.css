@@ -103,12 +103,12 @@
     height: 500px;
     border-radius: 10px;
 }
-.imagem-com-descricao .info{
+.imagem-com-descricao .info , .vaso-com-rosto .info{
     justify-content: flex-start;
     margin-right: 200px;
     margin-top: 10px;
 }
-.imagem-com-descricao .info p{
+.imagem-com-descricao .info p, .vaso-com-rosto .info {
     font-size: 20px;
 }
 .museo-de-arte{
@@ -310,10 +310,20 @@
         width: 300px;
         margin-bottom: 20px;
     }
-    .imagem-com-descricao{
+    .imagem-com-descricao,  .vaso-com-rosto , .jarro-com-copos, .peixe, .tartaruga{
         text-align: center;
         align-items: center;
     
+    }
+    .vaso-com-rosto .info , .jarro-com-copos .info, .peixe .info , .tartaruga .info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-left: 70%;
+    }
+    .peixe img,.tartaruga img{
+        width: 100%;
     }
     .imagem-com-descricao img{
         width: 100%;

@@ -260,3 +260,38 @@
     margin-bottom: 30px;
     padding-bottom: 50px;
 }
+
+
+@media (max-width: 500px){
+    .texto-1{
+        height: 100%;
+        padding: 20px;
+    }
+    .texto-1 h1{
+        font-size: 30px;
+    }
+    .texto-1 p{
+        width: 340px;
+       
+    }
+    .texto{
+        display: flex;
+        width: 100%;
+        text-align: center;
+    }
+    .texto h1{
+        font-size: 30px;
+
+    }
+    .texto-2 p{
+        width: 330px;
+    }
+    .pamonha img{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .imagem-mulher-indigena-fazendo-comida img{
+        width: 100%;
+        border-radius: 0px;
+    }
+}
