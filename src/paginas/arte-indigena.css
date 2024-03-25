@@ -184,14 +184,18 @@
 }
 .texto-sobre-historia  li{
     list-style: inside;
-    float: left;
-    
+    font-size: 25px;
 }
 .texto-sobre-historia p{
     width: 800px;
     text-align: justify;
+    display: flex;
+    justify-content: flex-start;
     font-size: 30px;
     
+}
+.texto-sobre-historia .caixas{
+    width: 800px;
 }
 .vaso-com-rosto{
     flex-direction: column;
@@ -301,8 +305,11 @@
     .informacoes h1{
         font-size: 30px;
     }
+    .informacoes p span{
+       font-size: 30px;
+    }
     .informacoes p{
-        font-size: 20px;
+        font-size: 25px;
         width: 300px;
         text-align: center;
     }
@@ -312,10 +319,11 @@
     }
     .segundo-texto{
         padding: 10px;
-        height: 400px;
+        height: 100%;
     }
     .segundo-texto p{
-        font-size: 20px;
+        font-size: 25px;
+        
         width: 300px;
         margin-bottom: 20px;
         text-align: center;
@@ -349,8 +357,11 @@
     }
     .texto-sobre-historia p{
         width: 300px;
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
+    }
+    .texto-sobre-historia .caixas{
+        width: 300px;
     }
     .imagem-com-descricao .info {
         width: 100%;
@@ -362,11 +373,11 @@
         border-radius: 0px;
     }
     .texto-sobre-o-vaso-com-rosto{
-        height: 550px;
+        height: 100%;
     }
     .texto-sobre-o-vaso-com-rosto p{
         width: 300px;
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
     }
 }
