@@ -151,8 +151,9 @@
         display: block;
     }
     .comida-inicio h1{
-        font-size: 25px;
-        width: 300px;
+        font-size: 23px;
+        
+        
     }
     .culinaria .comida.milho .img , .culinaria .comida.pamonha .img ,.culinaria .comida.tapioca .img,.culinaria .comida.mandioca .img,.culinaria .comida.muqueca-de-paixe .img,.culinaria .comida.tacaca .img{
       width: 300px;
