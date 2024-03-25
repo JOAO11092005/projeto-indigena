@@ -179,11 +179,17 @@
     align-items: center;
     justify-content: center;
     height: 400px;
+    flex-direction: column;
+}
+.texto-sobre-historia p {
+    list-style: circle;
+    color: red;
 }
 .texto-sobre-historia p{
     width: 800px;
     text-align: justify;
     font-size: 30px;
+    
 }
 .vaso-com-rosto{
     flex-direction: column;
