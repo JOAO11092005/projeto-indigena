@@ -150,7 +150,7 @@
         display: block;
     }
     .comida-inicio h1{
-        font-size: 25px;
+        font-size: 28px;
     }
     .culinaria .comida.milho .img , .culinaria .comida.pamonha .img ,.culinaria .comida.tapioca .img,.culinaria .comida.mandioca .img,.culinaria .comida.muqueca-de-paixe .img,.culinaria .comida.tacaca .img{
       width: 300px;
@@ -268,20 +268,18 @@
         height: 100%;
         height: 100%;
         padding: 20px;
-        
- }
+    }
     .texto-1 h1{
         font-size: 25px;
     }
     .texto-1 p{
-        width: 245px;
-        font-size: 17px;
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
         
     }
     .texto-1 p span{
         text-align: center;
-        text-align: center;
-        font-size: 17px;
     }
     .texto{
         display: flex;
@@ -293,8 +291,9 @@
 
     }
     .texto-2 p{
-        width: 280px;
-        font-size: 18px;
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
     }
     .pamonha h2{
         text-align: center;

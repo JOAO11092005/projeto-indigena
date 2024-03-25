@@ -180,10 +180,12 @@
     justify-content: center;
     height: 400px;
     flex-direction: column;
+    
 }
-.texto-sobre-historia p {
-    list-style: circle;
-    color: red;
+.texto-sobre-historia  li{
+    list-style: inside;
+    float: left;
+    
 }
 .texto-sobre-historia p{
     width: 800px;
@@ -302,6 +304,7 @@
     .informacoes p{
         font-size: 20px;
         width: 300px;
+        text-align: center;
     }
     .imagem-ceramica img{
         width: 100%;
@@ -315,6 +318,7 @@
         font-size: 20px;
         width: 300px;
         margin-bottom: 20px;
+        text-align: center;
     }
     .imagem-com-descricao,  .vaso-com-rosto , .jarro-com-copos, .peixe, .tartaruga{
         text-align: center;
@@ -346,7 +350,7 @@
     .texto-sobre-historia p{
         width: 300px;
         font-size: 20px;
-        
+        text-align: center;
     }
     .imagem-com-descricao .info {
         width: 100%;
@@ -363,5 +367,6 @@
     .texto-sobre-o-vaso-com-rosto p{
         width: 300px;
         font-size: 20px;
+        text-align: center;
     }
 }
