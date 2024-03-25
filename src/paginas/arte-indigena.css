@@ -304,9 +304,11 @@
     }
     .informacoes h1{
         font-size: 30px;
+        width: 300px;
     }
     .informacoes p span{
        font-size: 30px;
+       width: 300px;
     }
     .informacoes p{
         font-size: 25px;
@@ -327,6 +329,11 @@
         width: 300px;
         margin-bottom: 20px;
         text-align: center;
+    }
+    .texto h1{
+       font-size: 27px;
+       width: 300px;
+
     }
     .imagem-com-descricao,  .vaso-com-rosto , .jarro-com-copos, .peixe, .tartaruga{
         text-align: center;

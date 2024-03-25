@@ -288,7 +288,7 @@
     }
     .texto h1{
         font-size: 27px;
-
+        width: 300px;
     }
     .texto-2 p{
         width: 300px;
@@ -297,7 +297,7 @@
     }
     .pamonha h2{
         text-align: center;
-        font-size: 25px;
+        font-size: 27px;
     }
     .pamonha img{
         width: 100%;
