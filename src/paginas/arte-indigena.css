@@ -122,8 +122,16 @@
     color:rgb(228, 86, 86);
     gap: 10px;
 }
+.museo-de-arte .fundo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.508);
+    height: 100%;
+}
 .museo-de-arte h2{
-    background-color: rgba(15, 87, 87, 0.486);
+    /* background-color: rgba(15, 87, 87, 0.486); */
     padding: 10px;
     border-radius: 7px;
     color: white;
@@ -148,7 +156,9 @@
     }
     .museo-de-arte{
         flex-direction: column;
-        
+    }
+    .museo-de-arte .fundo{
+        flex-direction: column;
     }
     .artes .arte{
         width: 300px;
